@@ -1033,6 +1033,9 @@ components:
         minAvailability:
           type: integer
           description: Minimum availability required for the server
+        LBOsupport:
+          type: boolean
+          description: Indicates if the LBO(Local Breakout) is supported or not (especially in the case of roaming)
       additionalProperties: false
     types_computeResources:
       type: object
